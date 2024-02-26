@@ -25,4 +25,10 @@ app.get('/data/:Id', async (req,res)=>{
     }
 });
 
+app.post('/data', jsonParser, async (req,res)=>{
+    let adatok = [req.body.email];
+    const insert = db.query('INSERT INTO data(email) VALUES (?)', adatok);
+    res.send("Sikeres adatfelvétel!");
+});
+
 app.listen(3000);
