@@ -1,4 +1,5 @@
 .gamer {
     color: rebeccapurple;
-    
+    display: flex;
+    justify-content: left;
 }

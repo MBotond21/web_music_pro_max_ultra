@@ -1,6 +1,7 @@
 import { useState } from 'react'
+import { MainNavbar } from './components/navbar'
 import './App.css'
-import { MainNavbar } from './components/navbar/index.tsx'  
+
 function App() {
 
   return (
