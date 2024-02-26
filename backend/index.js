@@ -15,5 +15,14 @@ const db = mysql.createPool({
 
 app.use(cors());
 
+app.get('/data/:Id', async (req,res)=>{
+    let Id = parseInt(req.params.Id);
+    const [rows, fields] = await db.query('SELECT * FROM data WHERE id = ?', [Id]);
+    if (rows.length == 1){
+        res.send(rows[0]);
+    } else {
+        res.status(404).send({error: 'Hiba történt!'});
+    }
+});
 
 app.listen(3000);
