@@ -10,7 +10,7 @@ export function MainNavbar(props: Props){
     <Container>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
-          <Nav.Link href="#home" className='navlink'>Főoldal</Nav.Link><br></br>
+          <Nav.Link href="#home" className='navlink'>Főoldal</Nav.Link><br/>
           <Nav.Link href="#link" className='navlink'>Pop</Nav.Link><br></br>
           <Nav.Link href="#link" className='navlink'>Rock</Nav.Link><br></br>
           <Nav.Link href="#link" className='navlink'>Indie</Nav.Link><br></br>

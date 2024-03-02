@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { MainNavbar } from './components/navbar'
 import './App.css'
 import { MainFooter } from './components/footer'
+import { MainFrame } from "./components/mainframe";
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <div>
       <MainNavbar></MainNavbar>
       <MainFooter></MainFooter>
+      <MainFrame></MainFrame>
     </div>
   )
 }
