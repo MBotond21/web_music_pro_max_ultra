@@ -1,22 +1,33 @@
-import { Navbar, Container, NavDropdown, Nav} from 'react-bootstrap'
+import { Navbar, Container, Nav} from 'react-bootstrap'
 import "./index.css"
-
+import { useSelector, useDispatch } from 'react-redux'
+import { FrameState } from '../../types'
+import { updateFrameState } from '../../store'
 interface Props {
 
 }
 
+
+
 export function MainNavbar(props: Props){
+  const frameState = useSelector((state: FrameState) => state.frameState);
+  const dispatch = useDispatch();
+
+  function FrameUpdate(selectedFrame: string){
+    dispatch(updateFrameState(selectedFrame));
+  }
+  
     return <Navbar expand="lg" className="gamer">
     <Container>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link href="#home" className='navlink'>Főoldal</Nav.Link><br/>
-          <Nav.Link href="#link" className='navlink'>Pop</Nav.Link><br></br>
-          <Nav.Link href="#link" className='navlink'>Rock</Nav.Link><br></br>
-          <Nav.Link href="#link" className='navlink'>Indie</Nav.Link><br></br>
-          <Nav.Link href="#link" className='navlink'>Metál</Nav.Link><br></br>
-          <Nav.Link href="#link" className='navlink'>Játék</Nav.Link><br></br>
-          <Nav.Link href="#link" className='navlink'>Hip-hop</Nav.Link><br></br>
+          <Nav.Link onClick = {() => FrameUpdate("pop")} className='navlink'>Pop</Nav.Link><br></br>
+          <Nav.Link onClick = {() => FrameUpdate("rock")} className='navlink'>Rock</Nav.Link><br></br>
+          <Nav.Link onClick = {() => FrameUpdate("indie")} className='navlink'>Indie</Nav.Link><br></br>
+          <Nav.Link onClick = {() => FrameUpdate("metal")} className='navlink'>Metál</Nav.Link><br></br>
+          <Nav.Link onClick = {() => FrameUpdate("jatek")} className='navlink'>Játék</Nav.Link><br></br>
+          <Nav.Link onClick = {() => FrameUpdate("hip-hop")} className='navlink'>Hip-hop</Nav.Link><br></br>
         </Nav>
       </Navbar.Collapse>
     </Container>
