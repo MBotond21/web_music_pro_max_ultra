@@ -16,15 +16,15 @@ export function MainNavbar(props: Props){
   function FrameUpdate(selectedFrame: string){
     dispatch(updateFrameState(selectedFrame));
   }
-  
+
     return <Navbar expand="lg" className="gamer">
     <Container>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
           <Nav.Link href="#home" className='navlink'>Főoldal</Nav.Link><br/>
-          <Nav.Link onClick = {() => FrameUpdate("pop")} className='navlink'>Pop</Nav.Link><br></br>
-          <Nav.Link onClick = {() => FrameUpdate("rock")} className='navlink'>Rock</Nav.Link><br></br>
-          <Nav.Link onClick = {() => FrameUpdate("indie")} className='navlink'>Indie</Nav.Link><br></br>
+          <Nav.Link onClick = {() => FrameUpdate("genre_teszt1")} className='navlink'>Pop</Nav.Link><br></br>
+          <Nav.Link onClick = {() => FrameUpdate("genre_teszt2")} className='navlink'>Rock</Nav.Link><br></br>
+          <Nav.Link onClick = {() => FrameUpdate("genre_teszt3")} className='navlink'>Indie</Nav.Link><br></br>
           <Nav.Link onClick = {() => FrameUpdate("metal")} className='navlink'>Metál</Nav.Link><br></br>
           <Nav.Link onClick = {() => FrameUpdate("jatek")} className='navlink'>Játék</Nav.Link><br></br>
           <Nav.Link onClick = {() => FrameUpdate("hip-hop")} className='navlink'>Hip-hop</Nav.Link><br></br>

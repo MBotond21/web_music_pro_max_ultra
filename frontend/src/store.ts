@@ -5,7 +5,7 @@ interface FrameState {
 }
 
 const initialState: FrameState = {
-    frameState: 'main',
+    frameState: 'genre_teszt1',
 };
   
 const frameSlice = createSlice({

@@ -1,0 +1,28 @@
+{
+    "genres": [
+        {
+            "genre": "genre_teszt1",
+            "title": "title_teszt1",
+            "leiras": "leiras_teszt1",
+            "categoria": "category_teszt1",
+            "spotify_playlist": "spotify_playlist_teszt1",
+            "eloadok": [ "link1?", "link2?", "link3?", "link4?", "link5?"]
+        },
+        {
+            "genre": "genre_teszt2",
+            "title": "title_teszt2",
+            "leiras": "leiras_teszt2",
+            "categoria": "category_teszt2",
+            "spotify_playlist": "spotify_playlist_teszt2",
+            "eloadok": [ "link1?", "link2?", "link3?", "link4?", "link5?"]
+        },
+        {
+            "genre": "genre_teszt3",
+            "title": "title_teszt3",
+            "leiras": "leiras_teszt3",
+            "categoria": "category_teszt3",
+            "spotify_playlist": "spotify_playlist_teszt3",
+            "eloadok": [ "link1?", "link2?", "link3?", "link4?", "link5?"]
+        }
+    ]
+}
