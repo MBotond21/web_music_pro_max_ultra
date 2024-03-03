@@ -3,15 +3,16 @@ import { MainNavbar } from './components/navbar'
 import './App.css'
 import { MainFooter } from './components/footer'
 import { MainFrame } from "./components/mainframe";
-
+import { Provider } from 'react-redux';
+import store from './store';
 function App() {
 
   return (
-    <div>
+    <Provider store={store}>
       <MainNavbar></MainNavbar>
       <MainFooter></MainFooter>
       <MainFrame></MainFrame>
-    </div>
+    </Provider>
   )
 }
 
