@@ -10,7 +10,6 @@ interface Props {
 
 
 export function MainNavbar(props: Props){
-  const frameState = useSelector((state: FrameState) => state.frameState);
   const dispatch = useDispatch();
 
   function FrameUpdate(selectedFrame: string){

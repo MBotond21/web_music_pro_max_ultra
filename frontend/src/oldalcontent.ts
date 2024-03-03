@@ -9,4 +9,5 @@ export interface Genre {
     categoria: string
     spotify_playlist: string
     eloadok: string[]
+    hatterkep: string
 }

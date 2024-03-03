@@ -4,7 +4,7 @@ import { Table } from "react-bootstrap"
 import { useSelector } from 'react-redux'
 import { FrameState } from '../../types'
 import { Genres, Genre } from '../../oldalcontent'
-import { current } from "@reduxjs/toolkit"
+
 interface Props {
 
 }
@@ -23,7 +23,7 @@ export function MainFrame(props: Props){
     }, [])
     const currentGenre = genres.find((genre) => genre.genre === frameState);
     console.log(currentGenre)
-    return <div className="frame">
+    return <div className="frame" style={{backgroundImage: currentGenre ? `url(${currentGenre.hatterkep})` : 'none' }}>
         <h1 className="frameheader">{currentGenre?.title}</h1>
         <div className="framecontent">
             <Table className="scuffed">
