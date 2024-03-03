@@ -1,10 +1,13 @@
 import "./index.css";
 import { Table } from "react-bootstrap";
-
+import { useSelector } from 'react-redux'
+import { FrameState } from '../../types'
 interface Props {
 
 }
 export function MainFrame(props: Props){
+    const frameState = useSelector((state: FrameState) => state.frameState);
+    
     return <div className="frame">
         <h1 className="frameheader">*insert title/name*</h1>
         <div className="framecontent">
