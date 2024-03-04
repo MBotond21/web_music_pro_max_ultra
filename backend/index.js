@@ -26,8 +26,8 @@ app.get('/data/:Id', async (req,res)=>{
 });
 
 app.post('/data', jsonParser, async (req,res)=>{
-    let adatok = [req.body.email, req.body.password];
-    const insert = db.query('INSERT INTO data(email, password) VALUES (?,?)', adatok);
+    let adatok = [req.body.email];
+    const insert = db.query('INSERT INTO data(email) VALUES (?)', adatok);
     res.send("Sikeres adatfelvétel!");
 });
 
