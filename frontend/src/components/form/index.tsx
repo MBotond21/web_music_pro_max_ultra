@@ -18,7 +18,7 @@ function FooterForm() {
     for (let i = 0; i < e.length-1; i++) {
       e[i].value = "";
     }
-    document.getElementsByTagName("input")[2].checked = false;
+    document.getElementsByTagName("input")[1].checked = false;
   }
 
   async function insertFunc(e: FormEvent){
@@ -26,14 +26,13 @@ function FooterForm() {
     let adatok = getInsert();
     console.log(adatok);
 
-    let chck = document.getElementsByTagName("input")[2].checked;
+    let chck = document.getElementsByTagName("input")[1].checked;
   
     if(chck){
       document.getElementById("not-checked")!.textContent = "";
       clearInputs();
       const datas = {
-        "email": adatok[0],
-        "password": adatok[1]
+        "email": adatok[0]
       }
     
       const response = await fetch('http://localhost:3000/data', {
@@ -43,7 +42,9 @@ function FooterForm() {
           'Content-type': 'application/json'
         },
       });
-    
+      
+      window.alert("Sikeres regisztráció");
+
       const data = await response.json();
       console.log(data);
       
@@ -64,14 +65,11 @@ function FooterForm() {
         </Form.Text>
       </Form.Group>
       
-      <Form.Group className="formgroup" controlId="formBasicPassword">
-        <Form.Label>Password</Form.Label>
-        <Form.Control type="password" placeholder="Password" />
-      </Form.Group>
       <Form.Group className="formgroup" controlId="formBasicCheckbox">
         <Form.Check type="checkbox" label="Check me out" />
       </Form.Group>
       <p id='not-checked'></p>
+      
       <Button variant="primary" type="submit">
         Submit
       </Button>
