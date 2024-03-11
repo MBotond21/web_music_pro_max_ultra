@@ -21,6 +21,20 @@ function FooterForm() {
     document.getElementsByTagName("input")[1].checked = false;
   }
 
+  async function checkForExisting(e: string){
+    let db = await fetch('http://localhost:3000/data');
+    let data = await db.json();
+    let i = 0;
+    let b = false;
+    while (i < data.length && !b) {
+      if(data[i].email == e){
+        b = true;
+      }
+      i++;
+    }
+    return b;
+  }
+
   async function insertFunc(e: FormEvent){
     e.preventDefault();
     let adatok = getInsert();
@@ -29,25 +43,28 @@ function FooterForm() {
     let chck = document.getElementsByTagName("input")[1].checked;
   
     if(chck){
-      document.getElementById("not-checked")!.textContent = "";
-      clearInputs();
-      const datas = {
-        "email": adatok[0]
+      if(await checkForExisting(adatok[0])){
+        window.alert("Ez az email már regisztrálva van!");
       }
-    
-      const response = await fetch('http://localhost:3000/data', {
-        method: 'POST',
-        body: JSON.stringify(datas),
-        headers: {
-          'Content-type': 'application/json'
-        },
-      });
+      else{
+        document.getElementById("not-checked")!.textContent = "";
+        clearInputs();
+        const datas = {
+          "email": adatok[0]
+        }
       
-      window.alert("Sikeres regisztráció");
+        const response = await fetch('http://localhost:3000/data', {
+          method: 'POST',
+          body: JSON.stringify(datas),
+          headers: {
+            'Content-type': 'application/json'
+          },
+        });
+        
+        window.alert("Sikeres regisztráció");
 
-      const data = await response.json();
-      console.log(data);
-      
+        const data = await response.json();
+      }
     }
     else{
       document.getElementById("not-checked")!.textContent = "Kérlek ezt nyomd meg a regisztációhoz";
