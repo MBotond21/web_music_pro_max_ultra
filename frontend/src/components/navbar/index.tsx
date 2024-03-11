@@ -20,7 +20,7 @@ export function MainNavbar(props: Props){
     <Container>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto">
-          <Nav.Link href="#home" className='navlink'>Főoldal</Nav.Link><br/>
+          <Nav.Link onClick = {() => FrameUpdate("Fooldal")} className='navlink'>Főoldal</Nav.Link><br/>
           <Nav.Link onClick = {() => FrameUpdate("Pop")} className='navlink pop'>Pop</Nav.Link><br></br>
           <Nav.Link onClick = {() => FrameUpdate("Rock")} className='navlink rock'>Rock</Nav.Link><br></br>
           <Nav.Link onClick = {() => FrameUpdate("Indie")} className='navlink indie'>Indie</Nav.Link><br></br>

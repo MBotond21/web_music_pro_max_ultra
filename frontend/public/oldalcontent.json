@@ -53,6 +53,15 @@
             "eloadok": [ "bbno$", "Eminem", "Kid Cudi", "Metro Boomin", "Kanye West"],
             "elink": [ "https://open.spotify.com/artist/41X1TR6hrK8Q2ZCpp2EqCz?si=a58383de203a4445", "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR?si=8c4c2d45026e413a", "https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu?si=8ccac43c19104288", "https://open.spotify.com/artist/0iEtIxbK0KxaSlF7G42ZOp?si=b56d3dcdebe54d92", "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x?si=11d6224bda004d49"],
             "hatterkep": ""
+        },
+        {
+            "genre": "Fooldal",
+            "title": "Főoldal",
+            "leiras": "Ez a weboldal főoldala, válassz ki egy műfajt, hogy többet olvashass róluk",
+            "spotify_playlist": "",
+            "eloadok": [],
+            "elink": [],
+            "hatterkep": ""
         }
     ]
 }
