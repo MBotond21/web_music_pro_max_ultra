@@ -1,17 +1,4 @@
 .frame {
-    color: black;
-    position: absolute;
-    background-color: gray;
-    top: 0;
-    right: 0;
-    height: 80%;
-    width: 85%;
-    background-image: url(https://pbs.twimg.com/media/GHILkHdWIAENDjo?format=png&name=360x360);
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.frame.pop {
     color: white;
     position: absolute;
     background-color: gray;
