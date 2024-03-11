@@ -33,8 +33,6 @@ export function MainFrame(props: Props){
                         <p>{currentGenre?.leiras}</p>
                     </td>
                     <td className="scuffedright">
-                        <h1>Adatok</h1>
-                        <h2>{currentGenre?.categoria}</h2>
                         <h2>Spotify playlist:</h2>
                         <p>{currentGenre?.spotify_playlist}</p>
                         <h2>Artists in this category:</h2>
