@@ -3,7 +3,7 @@
         {
             "genre": "Pop",
             "title": "Pop",
-            "leiras": "leiras_teszt1",
+            "leiras": "A popzene manapság az egyik leggyakrabban használt összefoglaló kifejezés a népszerű könnyűzene, illetve a szórakoztató zene modern stílusirányzataira. Nem tartozik a fogalma alá: a népzene, de a folknak nevezett irányzat igen; a klasszikus zene átdolgozása általában, de bizonyos feldolgozások igen.",
             "categoria": "category_teszt1",
             "spotify_playlist": "spotify_playlist_teszt1",
             "eloadok": [ "Harry Styles", "Ed Sheeran", "Alec Benjamin", "Adele", "Bruno Mars"],
@@ -13,7 +13,7 @@
         {
             "genre": "Rock",
             "title": "Rock",
-            "leiras": "leiras_teszt2",
+            "leiras": "A rockzene hangzását meghatározza az elektromos gitár alkalmazása, ami az ötvenes években, a rock and roll előretörésekor vált népszerűvé. Rockban az elektromos gitárt általában basszusgitárral kísérik, ami szintén ekkor jelent meg (először a jazzben alkalmazták), valamint dobfelszereléssel, ami magában foglal különböző dobokat és cintányérokat. A három alapvető hangszer gyakran kiegészül billentyűs hangszerekkel (például zongorával vagy Hammond-orgonával, esetleg szintetizátorral). A rockzenét játszó csapatokat szleng kifejezéssel bandáknak vagy rockbandáknak nevezik, és általában 3-5 személy játszik bennük. A rock tradicionális felállása a quintett, ahol szerepel egy énekes, egy szólógitáros, egy ritmusgitáros, egy basszusgitáros és egy dobos, néha billentyűs illetve egyéb hangszeres.",
             "categoria": "category_teszt2",
             "spotify_playlist": "spotify_playlist_teszt2",
             "eloadok": [ "The Black Keys", "Imagine Dragons", "Nothing Vut Thieves", "Queens of the Stone Age", "Royal Blood"],
@@ -23,7 +23,7 @@
         {
             "genre": "Indie",
             "title": "Indie",
-            "leiras": "leiras_teszt3",
+            "leiras": "Az indie rock egy gyűjtőfogalom, ami széles körben magába foglalja a rockhoz közeli művészeket és stílusokat, amelyek egy bizonyos fokig megőrzik az underground kultúra értékeit.",
             "categoria": "category_teszt3",
             "spotify_playlist": "spotify_playlist_teszt3",
             "eloadok": [ "Two Door Cinema Club", "Cage The Elephant", "Good Kid", "The Strokes", "Arctic Monkeys"],
@@ -33,7 +33,7 @@
         {
             "genre": "Metal",
             "title": "Metál",
-            "leiras": "leiras_teszt3",
+            "leiras": "A heavy metal rockzenei műfaj, amely 1968 és 1974 között jött létre. A heavy metalt életre hívó, blues-rock- és pszichedelikusrock-gyökerekkel rendelkező együttesek gitár- és dobközpontú, vastag, kemény hangzást alakítottak ki, melyet erős torzítás és gyors gitárszólók jellemeznek.",
             "categoria": "category_teszt3",
             "spotify_playlist": "spotify_playlist_teszt3",
             "eloadok": [ "Shinedown", "Pierce the Veil", "Sabaton", "Muse", "Linkin Park"],
@@ -43,7 +43,7 @@
         {
             "genre": "Jatek",
             "title": "Játék",
-            "leiras": "leiras_teszt3",
+            "leiras": "A videojátékok zenéje a videojátékokat kísérő filmzene. A korai videojátékzene egykor a korai hangchipek hangjaira korlátozódott, mint például a programozható hanggenerátorok vagy az FM-szintézis chipek. Ezek a korlátok vezettek a chiptune néven ismert zenei stílushoz, amely az első videojátékok hangja lett.",
             "categoria": "category_teszt3",
             "spotify_playlist": "spotify_playlist_teszt3",
             "eloadok": [ "C418", "ConcernedApe", "Lena Raine", "Toby Fox", "League of Legends"],
@@ -53,7 +53,7 @@
         {
             "genre": "Hip-hop",
             "title": "Hip-hop",
-            "leiras": "leiras_teszt3",
+            "leiras": "A hip-hop vagy hip-hop, más néven rap, korábban disco rap néven ismert populáris zenei műfaj, amely az 1970-es évek elején afroamerikaiak és karibi bevándorlóktól származott Bronxban, New York városának egyik kerületében.",
             "categoria": "category_teszt3",
             "spotify_playlist": "spotify_playlist_teszt3",
             "eloadok": [ "bbno$", "Eminem", "Kid Cudi", "Metro Boomin", "Kanye West"],
