@@ -15,6 +15,14 @@ const db = mysql.createPool({
 
 app.use(cors());
 
+app.get('/data', async (req,res)=>{
+    let Id = parseInt(req.params.Id);
+    const temp = await db.query('SELECT email FROM data');
+    const rows = temp[0];
+    res.send(rows);
+    
+});
+
 app.get('/data/:Id', async (req,res)=>{
     let Id = parseInt(req.params.Id);
     const [rows, fields] = await db.query('SELECT * FROM data WHERE id = ?', [Id]);
