@@ -26,7 +26,7 @@ export function MainNavbar(props: Props){
           <Nav.Link onClick = {() => FrameUpdate("Indie")} className='navlink indie'>Indie</Nav.Link><br></br>
           <Nav.Link onClick = {() => FrameUpdate("Metal")} className='navlink metal'>Metál</Nav.Link><br></br>
           <Nav.Link onClick = {() => FrameUpdate("Jatek")} className='navlink jatek'>Játék</Nav.Link><br></br>
-          <Nav.Link onClick = {() => FrameUpdate("Hip-hop")} className='navlink hiphop'>Hip-hop</Nav.Link><br></br>
+          <Nav.Link onClick = {() => FrameUpdate("Hiphop")} className='navlink hiphop'>Hip-hop</Nav.Link><br></br>
         </Nav>
       </Navbar.Collapse>
     </Container>

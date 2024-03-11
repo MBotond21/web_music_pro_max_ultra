@@ -16,7 +16,7 @@
             "spotify_playlist": "spotify_playlist_teszt2",
             "eloadok": [ "The Black Keys", "Imagine Dragons", "Nothing Vut Thieves", "Queens of the Stone Age", "Royal Blood"],
             "elink": [ "https://open.spotify.com/artist/7mnBLXK823vNxN3UWB7Gfz?si=y06bwoCMRmK2f7CM1Q-LLw", "https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q?si=b670447450f541ef", "https://open.spotify.com/artist/1kDGbuxWknIKx4FlgWxiSp?si=d424fe3e12df408e", "https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn?si=c13662887bd74ea4","https://open.spotify.com/artist/2S5hlvw4CMtMGswFtfdK15?si=2ceed3cd748e4964"],
-            "hatterkep": ""
+            "hatterkep": "https://www.loopearplugs.com/cdn/shop/articles/applause-audience-band-167636_8a2ad979-d6bb-48e8-8c90-8810a35cdf5d.jpg?v=1702892933&width=2000"
         },
         {
             "genre": "Indie",
@@ -25,7 +25,7 @@
             "spotify_playlist": "spotify_playlist_teszt3",
             "eloadok": [ "Two Door Cinema Club", "Cage The Elephant", "Good Kid", "The Strokes", "Arctic Monkeys"],
             "elink": [ "https://open.spotify.com/artist/536BYVgOnRky0xjsPT96zl?si=ba1ab8bb51d84513", "https://open.spotify.com/artist/26T3LtbuGT1Fu9m0eRq5X3?si=815526b30bb64a58", "https://open.spotify.com/artist/38SKxCyfrmNWqWunb9wGHP?si=dc2eb9dfdb7e4121", "https://open.spotify.com/artist/0epOFNiUfyON9EYx7Tpr6V?si=83e0009ef88840f6", "https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH?si=4c2221d019e14287"],
-            "hatterkep": ""
+            "hatterkep": "https://www.magneticmag.com/.image/ar_3:2%2Cc_limit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_700/MTkxNDA3NzM3MDgxNDM5Nzc3/the-strokes-press-shot.jpg"
         },
         {
             "genre": "Metal",
@@ -34,7 +34,7 @@
             "spotify_playlist": "spotify_playlist_teszt3",
             "eloadok": [ "Shinedown", "Pierce the Veil", "Sabaton", "Muse", "Linkin Park"],
             "elink": [ "https://open.spotify.com/artist/70BYFdaZbEKbeauJ670ysI?si=1c94f705af564697", "https://open.spotify.com/artist/4iJLPqClelZOBCBifm8Fzv?si=23dac1f1f7404347", "https://open.spotify.com/artist/3o2dn2O0FCVsWDFSh8qxgG?si=6381ecbda6d24b75", "https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI?si=57d95eaa2a3f42ce", "https://open.spotify.com/artist/6XyY86QOPPrYVGvF9ch6wz?si=af08aef5c04d4143"],
-            "hatterkep": ""
+            "hatterkep": "https://photos.bandsintown.com/large/15282438.jpeg"
         },
         {
             "genre": "Jatek",
@@ -46,7 +46,7 @@
             "hatterkep": ""
         },
         {
-            "genre": "Hip-hop",
+            "genre": "Hiphop",
             "title": "Hip-hop",
             "leiras": "A hip-hop vagy hip-hop, más néven rap, korábban disco rap néven ismert populáris zenei műfaj, amely az 1970-es évek elején afroamerikaiak és karibi bevándorlóktól származott Bronxban, New York városának egyik kerületében.",
             "spotify_playlist": "spotify_playlist_teszt3",

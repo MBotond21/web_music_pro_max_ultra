@@ -39,9 +39,9 @@ export function MainFrame(props: Props){
         </div>
     }
     else{
-        return <div className={"frame " + currentGenre?.title.toLowerCase()} style={{backgroundImage: currentGenre ? `url(${currentGenre.hatterkep})` : 'none' }}>
+        return <div className={"frame " + currentGenre?.genre.toLowerCase()} style={{backgroundImage: currentGenre ? `url(${currentGenre.hatterkep})` : 'none' }}>
             <h1 className="frameheader">{currentGenre?.title}</h1>
-            <div className={"framecontent " + currentGenre?.title.toLowerCase()}>
+            <div className={"framecontent " + currentGenre?.genre.toLowerCase()}>
                 <Table className="scuffed">
                     <tr>
                         <td className="scuffedleft">
