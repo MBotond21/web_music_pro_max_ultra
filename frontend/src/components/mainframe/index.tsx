@@ -39,11 +39,11 @@ export function MainFrame(props: Props){
                         <p>{currentGenre?.spotify_playlist}</p>
                         <h2>Artists in this category:</h2>
                         <ul>
-                            <li><a href="#artistlink">{currentGenre?.eloadok[0]}</a></li>
-                            <li><a href="#artistlink">{currentGenre?.eloadok[1]}</a></li>
-                            <li><a href="#artistlink">{currentGenre?.eloadok[2]}</a></li>
-                            <li><a href="#artistlink">{currentGenre?.eloadok[3]}</a></li>
-                            <li><a href="#artistlink">{currentGenre?.eloadok[4]}</a></li>
+                            <li><a href={currentGenre?.elink[0]}>{currentGenre?.eloadok[0]}</a></li>
+                            <li><a href={currentGenre?.elink[1]}>{currentGenre?.eloadok[1]}</a></li>
+                            <li><a href={currentGenre?.elink[2]}>{currentGenre?.eloadok[2]}</a></li>
+                            <li><a href={currentGenre?.elink[3]}>{currentGenre?.eloadok[3]}</a></li>
+                            <li><a href={currentGenre?.elink[4]}>{currentGenre?.eloadok[4]}</a></li>
                         </ul>
                     </td>
                 </tr>
