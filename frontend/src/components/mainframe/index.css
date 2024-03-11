@@ -1,15 +1,16 @@
 .frame {
-    color: black;
+    color: white;
     position: absolute;
     background-color: gray;
     top: 0;
     right: 0;
     height: 80%;
-    width: 85%;
+    width: 100%;
     background-image: url(https://pbs.twimg.com/media/GHILkHdWIAENDjo?format=png&name=360x360);
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 .frameheader {
     z-index: 1;
     font-size: 120px;
@@ -18,6 +19,41 @@
 
 .framecontent {
     background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.framecontent.pop {
+    background-image: linear-gradient(violet, black);
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.framecontent.rock {
+    background-image: linear-gradient(#04D939, black);
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.framecontent.indie {
+    background-image: linear-gradient(orange, black);
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.framecontent.metal {
+    background-image: linear-gradient(red, black);
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.framecontent.pop {
+    background-image: linear-gradient(red, black);
     color: white;
     height: 100%;
     width: 100%;
