@@ -77,7 +77,7 @@ function FooterForm() {
     <Form onSubmit={insertFunc} method='post'>
       <Form.Group className="formgroup" controlId="formBasicEmail">
         <Form.Label>Email </Form.Label>
-        <Form.Control type="email" placeholder="pelda@email.hu" />
+        <Form.Control type="email" placeholder="pelda@email.com" />
       </Form.Group>
       
       <Form.Group className="formgroup" controlId="formBasicCheckbox">
