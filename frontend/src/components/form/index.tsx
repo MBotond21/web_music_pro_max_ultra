@@ -64,6 +64,7 @@ function FooterForm() {
         window.alert("Sikeres regisztráció");
 
         const data = await response.json();
+        console.log(data);
       }
     }
     else{
@@ -75,15 +76,12 @@ function FooterForm() {
   return (
     <Form onSubmit={insertFunc} method='post'>
       <Form.Group className="formgroup" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter email" />
-        <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text>
+        <Form.Label>Email </Form.Label>
+        <Form.Control type="email" placeholder="pelda@email.com" />
       </Form.Group>
       
       <Form.Group className="formgroup" controlId="formBasicCheckbox">
-        <Form.Check type="checkbox" label="Check me out" />
+        <Form.Check type="checkbox" label="Feliratkozok a hírlevélre" />
       </Form.Group>
       <p id='not-checked'></p>
       
