@@ -14,7 +14,7 @@
             "title": "Rock",
             "leiras": "A rockzene hangzását meghatározza az elektromos gitár alkalmazása, ami az ötvenes években, a rock and roll előretörésekor vált népszerűvé. Rockban az elektromos gitárt általában basszusgitárral kísérik, ami szintén ekkor jelent meg (először a jazzben alkalmazták), valamint dobfelszereléssel, ami magában foglal különböző dobokat és cintányérokat. A három alapvető hangszer gyakran kiegészül billentyűs hangszerekkel (például zongorával vagy Hammond-orgonával, esetleg szintetizátorral). A rockzenét játszó csapatokat szleng kifejezéssel bandáknak vagy rockbandáknak nevezik, és általában 3-5 személy játszik bennük. A rock tradicionális felállása a quintett, ahol szerepel egy énekes, egy szólógitáros, egy ritmusgitáros, egy basszusgitáros és egy dobos, néha billentyűs illetve egyéb hangszeres.",
             "spotify_playlist": "spotify_playlist_teszt2",
-            "eloadok": [ "The Black Keys", "Imagine Dragons", "Nothing Vut Thieves", "Queens of the Stone Age", "Royal Blood"],
+            "eloadok": [ "The Black Keys", "Imagine Dragons", "Nothing But Thieves", "Queens of the Stone Age", "Royal Blood"],
             "elink": [ "https://open.spotify.com/artist/7mnBLXK823vNxN3UWB7Gfz?si=y06bwoCMRmK2f7CM1Q-LLw", "https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q?si=b670447450f541ef", "https://open.spotify.com/artist/1kDGbuxWknIKx4FlgWxiSp?si=d424fe3e12df408e", "https://open.spotify.com/artist/4pejUc4iciQfgdX6OKulQn?si=c13662887bd74ea4","https://open.spotify.com/artist/2S5hlvw4CMtMGswFtfdK15?si=2ceed3cd748e4964"],
             "hatterkep": "https://www.loopearplugs.com/cdn/shop/articles/applause-audience-band-167636_8a2ad979-d6bb-48e8-8c90-8810a35cdf5d.jpg?v=1702892933&width=2000"
         },
@@ -43,7 +43,7 @@
             "spotify_playlist": "spotify_playlist_teszt3",
             "eloadok": [ "C418", "ConcernedApe", "Lena Raine", "Toby Fox", "League of Legends"],
             "elink": [ "https://open.spotify.com/artist/4uFZsG1vXrPcvnZ4iSQyrx?si=42db2b37036d47a7", "https://open.spotify.com/artist/2PqkSKtPxs112KDZdRXGO2?si=0dca78191fcb4e3f", "https://open.spotify.com/artist/3Ww8GMbCDMAGwJJ2hd7z7z?si=20e5a04481164bbe", "https://open.spotify.com/artist/57DlMWmbVIf2ssJ8QBpBau?si=4cd66645466549f5", "https://open.spotify.com/artist/47mIJdHORyRerp4os813jD?si=8f92ab042e4644b7"],
-            "hatterkep": ""
+            "hatterkep": "https://www.barrie.ca/sites/default/files/styles/16_9/public/2023-07/Game-On.jpg?itok=3pRQRUgu"
         },
         {
             "genre": "Hiphop",
@@ -52,7 +52,7 @@
             "spotify_playlist": "spotify_playlist_teszt3",
             "eloadok": [ "bbno$", "Eminem", "Kid Cudi", "Metro Boomin", "Kanye West"],
             "elink": [ "https://open.spotify.com/artist/41X1TR6hrK8Q2ZCpp2EqCz?si=a58383de203a4445", "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR?si=8c4c2d45026e413a", "https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu?si=8ccac43c19104288", "https://open.spotify.com/artist/0iEtIxbK0KxaSlF7G42ZOp?si=b56d3dcdebe54d92", "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x?si=11d6224bda004d49"],
-            "hatterkep": ""
+            "hatterkep": "https://media.istockphoto.com/id/1414508294/hu/vektor/absztrakt-banner-design-graffiti-st%C3%ADlusban-c%C3%ADmk%C3%A9kkel-fest%C3%A9kfr%C3%B6ccsen%C3%A9ssel-firk%C3%A1l%C3%A1ssal-%C3%A9s.jpg?s=2048x2048&w=is&k=20&c=-Pf8_9rkojRsPerb9FVcHNiZsBXMi2b5mw4c1FwJWUw="
         },
         {
             "genre": "Fooldal",
@@ -61,7 +61,7 @@
             "spotify_playlist": "",
             "eloadok": [],
             "elink": [],
-            "hatterkep": ""
+            "hatterkep": "https://as2.ftcdn.net/v2/jpg/06/08/19/01/1000_F_608190135_MD3wqgUBChMzLE1V4UyHV3oHjhFgbrcA.jpg"
         }
     ]
 }

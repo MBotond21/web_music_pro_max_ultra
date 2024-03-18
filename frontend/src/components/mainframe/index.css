@@ -54,7 +54,21 @@
 }
 
 .framecontent.hiphop {
-    background-image: linear-gradient(#A6351C, black);
+    background-image: linear-gradient(#E5A940, black);
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.framecontent.jatek {
+    background-image: linear-gradient(aqua, black);
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.framecontent.fooldal {
+    background-image: linear-gradient(aqua, black);
     color: white;
     height: 100%;
     width: 100%;
@@ -72,4 +86,23 @@
 
 ul {
     list-style-type: none;
+}
+
+li {
+    line-height: 2em;
+    font-size: 20px;
+    color: #f1f1f1;
+    text-decoration: none;
+    transition: all 0.4s ease-in;
+}
+
+a {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+li:hover {
+    font-size: 35px;
+    border-radius: 10%;
+    line-height: 3em;
 }
