@@ -49,8 +49,6 @@ export function MainFrame(props: Props){
                             <p>{currentGenre?.leiras}</p>
                         </td>
                         <td className="scuffedright">
-                            <h2>Spotify playlist:</h2>
-                            <p>{currentGenre?.spotify_playlist}</p>
                             <h2>Artists in this category:</h2>
                             <ul>
                                 <li><a href={currentGenre?.elink[0]}>{currentGenre?.eloadok[0]}</a></li>
